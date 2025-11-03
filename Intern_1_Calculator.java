@@ -24,7 +24,7 @@ public class Intern_1_Calculator {
 			} else if (number == 3) {
 				System.out.println("Multiplication of two number is : " + c.multiple(number1, number2));
 			} else if (number == 4) {
-				System.out.println("Divide of two number is : " + c.subtract(number1, number2));
+				System.out.println("Divide of two number is : " + c.divide(number1, number2));
 			} else {
 				System.out.println("Enter the correct number between 1 to 4");
 			}
@@ -67,3 +67,4 @@ class Calculator {
 	}
 
 }
+
