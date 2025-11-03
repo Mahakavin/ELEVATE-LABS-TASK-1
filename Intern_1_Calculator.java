@@ -28,7 +28,7 @@ public class Intern_1_Calculator {
 			} else {
 				System.out.println("Enter the correct number between 1 to 4");
 			}
-			System.out.println("If you Want to continue give \"yes\" otherwise give \"exit\" :");
+			System.out.println("If you Want to continue give \"YES\" otherwise give \"EXIT\" :");
 			String process = scan.next();
 			if (process.equals("EXIT")) {
 				a = false;
@@ -67,4 +67,5 @@ class Calculator {
 	}
 
 }
+
 
